@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+  
+  <title>Iraquian Rodrigues - Meu portfolio</title>
+</head>
+<body>
+  
+  <!-- INICIO HEADER -->
+
+  <nav class="nav">
+    <ul class="nav-list">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#sobre">Sobre</a>
+      </li>
+      <li>
+        <a href="#project">Projetos</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- FIM HEADER -->
+
+  <!-- INICIO MAIN -->
+
+  <section id="home" class="main">
+    <div id="particles-js"></div>
+    <script src="particles.min.js"></script>
+    <script>
+        particlesJS(
+            {
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "edge",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+}   
+        )
+    </script>
+    <div>
+      <h1>Olá,<br>Seja bem vindo</h1>
+      <p>Crie soluções para seu negócio!</p>
+      <a href="#">
+        <button class="call-to-action">
+          Veja meus projetos 👇
+        </button>
+      </a>
+    </div>
+  </section>
+  <!-- FIM MAIN -->
+
+  <!-- INICIO SOBRE -->
+  <section id="sobre" class="about">
+    <div>
+      <h2>Sobre</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nesciunt hic quaerat nobis, placeat dolore architecto,
+       <br> <br> 
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio voluptatem totam omnis necessitatibus eius enim voluptatibus aperiam? Debitis dicta, inventore omnis atque deleniti natus officia, recusandae ipsa aliquid suscipit quaerat?</p>
+     </div>
+     <img src="images/foto-pc.png" alt="foto minha programando">
+  </section>
+
+  <!-- FIM SOBRE -->
+
+  <!--INICIO PROJETOS -->
+
+  <section id="project" class="projetos">
+    <h2>Meus Projetos</h2>
+    <p>Conheça meus últimos projetos!</p>
+    
+    <div class="project-list">
+      <img src="images/projeto1.png" alt="foto do projeto 1">
+      <img src="images/projeto2.png" alt="foto do projeto 2">
+      <img src="images/projeto3.png" alt="foto do projeto 3">
+    </div>
+
+    <div class="project-list">
+      <img src="images/projeto2.png" alt="foto do projeto 2">
+      <img src="images/projeto3.png" alt="foto do projeto 3">
+      <img src="images/projeto1.png" alt="foto do projeto 1">  
+    </div>
+
+    <button class="action">Faça seu orçamento</button>
+  </section>
+
+  <!--FIM PROJECTS-->
+
+  <!--INICIO FOOTER-->
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+        <h3>Iraquian Rodrigues <span>Web Developer</span></h3>
+
+        <p class="footer-links">
+            <a href="#">Home</a>
+            |
+            <a href="#">About</a>
+            |
+            <a href="#">Contact</a>
+            |
+            <a href="#">Blog</a>
+        </p>
+
+        <p class="footer-company-name">Copyright @ 2022 <strong> Iraquian Developer </strong>Todos os direitos reservados</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Areia Branca-RN</span>
+                Brasil</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>(84) 99964-2564</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="#">iraquianrodrigues@hotmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>Sobre mim</span>
+            <strong>Iraquian Rodrigues</strong> é apaixonado pela tecnologia e suas inovações, atualmente formado em Patologia Clinica, busco melhorias para a aréa da saude e afins, 
+            Atualmente domino o HTML/CSS/Javascript 
+        </p>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/profile.php?id=100028998821012" target="blank" class="link"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/iraquianrodrigues" target="blank" class="link"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/iraquiamrodrigues" target="blank" class="link"><i class="fa fa-linkedin"></i></a>
+            <a href="https://wa.me/+5584999642564" target="blank" class="link"><i class="fa fa-whatsapp"></i></a>
+        </div>
+    </div>
+</footer>
+
+<!--FIM FOOTER-->
+
+</body>
+</html>
